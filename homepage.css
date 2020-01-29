@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+  }
+body{
+    width:90%;
+    margin:auto;
+    font-style: poppins;
+    /* background: red; */
+}
+header{
+    top:0px;  
+    width:100%;
+    position: fixed;
+    background-color: aqua;
+    margin-bottom:2em;
+    z-index:10;
+}
+/* nav{
+  font-family: 'Poppins', sans-serif;
+  display:flex;
+  justify-content: space-around;
+  width:90%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  max-height:55px;
+  background: white;
+ 
+} 
+ .eachlink{
+    height:1em;
+    width:2em;
+    background-color: red;
+    /* padding: 1em; */
+    /* display: flex; */
+    /* margin: 2em; */
+    /* list-style-type: none; */
+/* }
+.list{
+    list-style-type: none;
+}  */
+section{
+    padding:2em;
+    margin:2em 0 2em 0 ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    /* font-style: poppins; */
+  }
+  main{
+    /* position: relative; */
+    /* bottom:-3em; */
+    transform:translateY(3em);
+    font-family: 'Poppins', sans-serif;
+    margin:1em;
+    z-index:-23;
+  } 
+  .car{
+      /* min-width: ; */
+      min-height: 30em;
+  }
+  .faculty-cards{
+      /* min-height: 25em; */
+      height: 50em;
+      min-width: 90%;
+  }
+  .cards{
+    margin:auto;
+    /* background:red; */
+    float:left;
+    min-width:342px;
+    min-height:350px;
+    /* background:green; */
+    margin: .9em;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    cursor:pointer;
+  }
+   .faculty-cards .card-lists li:hover{
+    /* background:red; */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.30), 0 6px 6px rgba(0,0,0,0.60);
+  }
+  /* Faculties images */
+  .image{
+    margin: auto;
+    min-width: 13em;
+    min-height:8em;
+    margin-top: 3em;
+    margin-left: 4em;
+  }
+  h3{
+    text-align: center;
+  }
+  h5{
+    text-align: center;
+  }
+  .foot{
+    padding:2em;
+    margin:2em 0 2em 0 ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    min-height: 10em;
+    min-width: 90%;
+    display: flex;
+
+  }
+  .useful{
+      width:45%;
+  }
+  .contacts{
+      width:45%;
+  }
+  a{
+      display: flex;
+  }
